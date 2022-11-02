@@ -16,12 +16,12 @@ const DUMMY_MEALS = [
     description: "A german specialty",
     price: 16.5,
   },
-  {
-    id: "m3",
-    name: "Sushi",
-    description: "Finest fish and veggies",
-    price: 22.99,
-  },
+  // {
+  //   id: "m3",
+  //   name: "Sushi",
+  //   description: "Finest fish and veggies",
+  //   price: 22.99,
+  // },
   {
     id: "m1",
     name: "Barbecue Burger",

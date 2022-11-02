@@ -1,10 +1,10 @@
 import React from "react";
-import cls from "./MealsSummery.module.css";
+import classes from "./MealsSum.module.css";
 
-const MealSummery = () => {
+const MealSum = () => {
   return (
-    <section className={cls.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+    <section className={classes.sum}>
+      <h3>Delicious Food, Delivered To You</h3>
       <p>
         Choose your favorite meal from our broad selection of available meals
         and enjoy a delicious lunch or dinner at home.
@@ -17,4 +17,4 @@ const MealSummery = () => {
   );
 };
 
-export default MealSummery;
+export default MealSum;

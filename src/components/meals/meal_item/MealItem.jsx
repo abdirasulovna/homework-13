@@ -38,7 +38,7 @@ const MealItem = ({ name, decription, price }) => {
           </button>
         </div>
         <div className={classes.total}>
-          <h1>Total: ${Number(dataPrice).toFixed(2)} </h1>
+          <h1>Total: {Number(dataPrice).toFixed(2)} </h1>
         </div>
       </div>
     </li>
